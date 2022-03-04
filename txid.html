@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>txid</title>
+<meta name="referrer" content="same-origin">
+<meta name="viewport" content="width=960">
+<style>.anim{visibility:hidden}</style>
+<link rel="preload" href="css/EBGaramond-Regular.woff2" as="font" crossorigin>
+<style>html,body{-webkit-text-zoom:reset !important}@font-face{font-display:block;font-family:"EB Garamond";src:url('css/EBGaramond-Regular.woff2') format('woff2'),url('css/EBGaramond-Regular.woff') format('woff');font-weight:400}@font-face{font-display:block;font-family:"Open Sans";src:url('css/OpenSans-ExtraBold.woff2') format('woff2'),url('css/OpenSans-ExtraBold.woff') format('woff');font-weight:800}@font-face{font-display:block;font-family:"Kameron";src:url('css/Kameron-Bold.woff2') format('woff2'),url('css/Kameron-Bold.woff') format('woff');font-weight:700}@font-face{font-display:block;font-family:"Nunito";src:url('css/Nunito-Regular.woff2') format('woff2'),url('css/Nunito-Regular.woff') format('woff');font-weight:400}@font-face{font-display:block;font-family:"Bruno Ace";src:url('css/BrunoAce-Regular.woff2') format('woff2'),url('css/BrunoAce-Regular.woff') format('woff');font-weight:400}@font-face{font-display:block;font-family:"Open Sans";src:url('css/OpenSans-Regular.woff2') format('woff2'),url('css/OpenSans-Regular.woff') format('woff');font-weight:400}body>div{font-size:0}p,span,h1,h2,h3,h4,h5,h6,a,li{margin:0;word-spacing:normal;word-wrap:break-word;-ms-word-wrap:break-word;pointer-events:auto;-ms-text-size-adjust:none !important;-moz-text-size-adjust:none !important;-webkit-text-size-adjust:none !important;text-size-adjust:none !important;max-height:10000000px}sup{font-size:inherit;vertical-align:baseline;position:relative;top:-0.4em}sub{font-size:inherit;vertical-align:baseline;position:relative;top:0.4em}ul{display:block;word-spacing:normal;word-wrap:break-word;list-style-type:none;padding:0;margin:0;-moz-padding-start:0;-khtml-padding-start:0;-webkit-padding-start:0;-o-padding-start:0;-padding-start:0;-webkit-margin-before:0;-webkit-margin-after:0}li{display:block;white-space:normal}li p{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none}form{display:inline-block}a{text-decoration:inherit;color:inherit;-webkit-tap-highlight-color:rgba(0,0,0,0)}textarea{resize:none}.shm-l{float:left;clear:left}.shm-r{float:right;clear:right}.btf{display:none}.plyr{min-width:0 !important}html{font-family:sans-serif}body{font-size:0;margin:0}audio,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:0 0;outline:0}b,strong{font-weight:700}dfn{font-style:italic}h1,h2,h3,h4,h5,h6{font-size:1em;line-height:1;margin:0}img{border:0}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=submit]{-webkit-appearance:button;cursor:pointer;box-sizing:border-box;white-space:normal}input[type=text],input[type=password],textarea{-webkit-appearance:none;appearance:none;box-sizing:border-box}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}textarea{overflow:auto;box-sizing:border-box;border-color:#ddd}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}blockquote{margin-block-start:0;margin-block-end:0;margin-inline-start:0;margin-inline-end:0}:-webkit-full-screen-ancestor:not(iframe){-webkit-clip-path:initial!important}
+html{-webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale}@-webkit-keyframes fadeIn{from{opacity:0}to{opacity:1}}@keyframes fadeIn{from{opacity:0}to{opacity:1}}.fadeIn{-webkit-animation-name:fadeIn;animation-name:fadeIn}.animated{-webkit-animation-fill-mode:both;animation-fill-mode:both}.animated.infinite{-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite}#b{background-color:#404040}.ps44{position:relative;margin-top:0}.v6{display:block;vertical-align:top}.s43{pointer-events:none;min-width:960px;width:960px;margin-left:auto;margin-right:auto;min-height:298px}.v7{display:inline-block;vertical-align:top}.ps45{position:relative;margin-left:0;margin-top:0}.s44{min-width:960px;width:960px;min-height:144px}.c45{z-index:1;pointer-events:auto;overflow:hidden;height:144px}.p5{text-indent:0;padding-bottom:0;padding-right:0;text-align:center}.f16{font-family:"EB Garamond";font-size:42px;font-size:calc(42px * var(--f));line-height:1.168;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#fff;background-color:initial;text-shadow:none}.ps46{position:relative;margin-left:14px;margin-top:9px}.s45{min-width:794px;width:794px;min-height:145px}.s46{min-width:80px;width:80px;min-height:117px}.w2{line-height:0}.ps47{position:relative;margin-left:5px;margin-top:0}.s47{min-width:70px;width:70px;min-height:33px}.c47{z-index:2;pointer-events:auto;overflow:hidden;height:33px}.f17{font-family:"EB Garamond";font-size:18px;font-size:calc(18px * var(--f));line-height:1.834;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#fff;background-color:initial;text-shadow:none}.v8{display:inline-block;vertical-align:top;overflow:hidden;outline:0}.s48{width:80px;padding-right:0;height:21px}.f18{font-family:"Helvetica Neue", sans-serif;font-size:12px;font-size:calc(12px * var(--f));line-height:1.251;font-weight:700;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;text-shadow:none;text-indent:0;text-align:center;padding-top:3px;padding-bottom:3px;margin-top:0;margin-bottom:0}.c48{z-index:10;pointer-events:auto;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#209ce9;background-clip:padding-box;color:#000}.c48:hover{background-color:#82939e;border-color:#000;color:#000}.c48:active{background-color:#52646f;border-color:#000;color:#fff}.ps48{position:relative;margin-left:0;margin-top:10px}.c49{z-index:12;pointer-events:auto;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#dc322f;background-clip:padding-box;color:#000}.c49:hover{background-color:#82939e;border-color:#000;color:#000}.c49:active{background-color:#52646f;border-color:#000;color:#fff}.ps49{position:relative;margin-left:0;margin-top:11px}.c50{z-index:13;pointer-events:auto;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#209ce9;background-clip:padding-box;color:#000}.c50:hover{background-color:#82939e;border-color:#000;color:#000}.c50:active{background-color:#52646f;border-color:#000;color:#fff}.ps50{position:relative;margin-left:16px;margin-top:0}.s49{min-width:75px;width:75px;min-height:145px}.c51{z-index:7;pointer-events:auto;overflow:hidden;height:33px}.ps51{position:relative;margin-left:0;margin-top:-5px}.s50{min-width:75px;width:75px;min-height:36px}.c52{z-index:8;pointer-events:auto;overflow:hidden;height:36px}.p6{text-indent:0;padding-bottom:0;padding-right:0;text-align:left}.f19{font-family:"Open Sans";font-size:15px;font-size:calc(15px * var(--f));line-height:1.868;font-weight:800;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#fff;background-color:initial;text-shadow:none}.ps52{position:relative;margin-left:0;margin-top:-3px}.s51{min-width:75px;width:75px;min-height:84px}.s52{min-width:75px;width:75px;min-height:53px}.c53{z-index:58;pointer-events:auto;overflow:hidden;height:53px}.ps53{position:relative;margin-left:0;margin-top:-22px}.c54{z-index:68;pointer-events:auto;overflow:hidden;height:53px}.ps54{position:relative;margin-left:25px;margin-top:0}.s53{min-width:100px;width:100px;min-height:117px}.ps55{position:relative;margin-left:15px;margin-top:0}.c55{z-index:3;pointer-events:auto;overflow:hidden;height:33px}.s54{width:100px;padding-right:0;height:21px}.c56{z-index:4;pointer-events:auto;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#dc322f;background-clip:padding-box;color:#000}.c56:hover{background-color:#82939e;border-color:#000;color:#000}.c56:active{background-color:#52646f;border-color:#000;color:#fff}.c57{z-index:5;pointer-events:auto;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#209ce9;background-clip:padding-box;color:#000}.c57:hover{background-color:#82939e;border-color:#000;color:#000}.c57:active{background-color:#52646f;border-color:#000;color:#fff}.c58{z-index:6;pointer-events:auto;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#209ce9;background-clip:padding-box;color:#000}.c58:hover{background-color:#82939e;border-color:#000;color:#000}.c58:active{background-color:#52646f;border-color:#000;color:#fff}.ps56{position:relative;margin-left:17px;margin-top:1px}.c59{z-index:29;pointer-events:auto;overflow:hidden;height:33px}.c60{z-index:34;pointer-events:auto;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#dc322f;background-clip:padding-box;color:#000}.c60:hover{background-color:#82939e;border-color:#000;color:#000}.c60:active{background-color:#52646f;border-color:#000;color:#fff}.c61{z-index:35;pointer-events:auto;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#209ce9;background-clip:padding-box;color:#000}.c61:hover{background-color:#82939e;border-color:#000;color:#000}.c61:active{background-color:#52646f;border-color:#000;color:#fff}.c62{z-index:36;pointer-events:auto;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#209ce9;background-clip:padding-box;color:#000}.c62:hover{background-color:#82939e;border-color:#000;color:#000}.c62:active{background-color:#52646f;border-color:#000;color:#fff}.ps57{position:relative;margin-left:55px;margin-top:27px}.s55{min-width:125px;width:125px;min-height:33px}.c63{z-index:36;pointer-events:auto;overflow:hidden;height:33px}.p7{text-indent:0;padding-bottom:0;padding-right:0;text-align:right}.ps58{position:relative;margin-left:-119px;margin-top:60px}.s56{min-width:125px;width:125px;min-height:69px}.c64{z-index:9;pointer-events:auto;overflow:hidden;height:33px}.ps59{position:relative;margin-left:0;margin-top:3px}.c65{z-index:14;pointer-events:auto;overflow:hidden;height:33px}.ps60{position:relative;margin-left:0;margin-top:30px}.s57{min-width:171px;width:171px;min-height:33px}.c66{z-index:56;pointer-events:auto;overflow:hidden;height:33px}.f20{font-family:Kameron;font-size:18px;font-size:calc(18px * var(--f));line-height:1.779;font-weight:700;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#ffc100;background-color:initial;text-shadow:none}.ps61{position:relative;margin-left:603px;margin-top:-82px}.s58{min-width:191px;width:191px;min-height:66px}.s59{min-width:191px;width:191px;min-height:58px}.c67{z-index:11;pointer-events:auto;overflow:hidden;height:58px}.ps62{position:relative;margin-left:0;margin-top:-25px}.c68{z-index:15;pointer-events:auto;overflow:hidden;height:33px}.ps63{position:relative;margin-top:54px}.s60{width:100%;min-width:960px;min-height:150px}.c69{z-index:57;pointer-events:none;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#9eafb9;background-clip:padding-box}.ps64{position:relative;margin-top:1px}.s61{min-width:960px;width:960px;margin-left:auto;margin-right:auto;min-height:119px}.s62{min-width:960px;width:960px;min-height:119px}.s63{min-width:960px;width:960px;min-height:29px}.c70{z-index:69;pointer-events:auto;overflow:hidden;height:29px}.f21{font-family:Nunito;font-size:15px;font-size:calc(15px * var(--f));line-height:1.868;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#000;background-color:initial;text-shadow:none}.ps65{position:relative;margin-left:784px;margin-top:-14px}.c71{z-index:94;pointer-events:auto;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#dc322f;background-clip:padding-box;color:#000}.c71:hover{background-color:#82939e;border-color:#000;color:#000}.c71:active{background-color:#52646f;border-color:#000;color:#fff}.ps66{position:relative;margin-left:22px;margin-top:-1px}.s64{min-width:54px;width:54px;min-height:91px}.c72{z-index:96;pointer-events:auto;overflow:hidden;height:91px}.f22{font-family:"Bruno Ace";font-size:54px;font-size:calc(54px * var(--f));line-height:1.686;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#000;background-color:initial;text-shadow:none}.ps67{position:relative;margin-left:354px;margin-top:-86px}.s65{min-width:252px;width:252px;min-height:27px;height:27px}.c73{z-index:75;pointer-events:auto}.input4{border:1px solid #c0c0c0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#fff;background-clip:padding-box;width:252px;height:27px;font-family:"Helvetica Neue", sans-serif;font-size:12px;font-size:calc(12px * var(--f));line-height:1.168;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#000;text-shadow:none;text-indent:0;padding-bottom:0;text-align:left;padding:4px}.input4::placeholder{color:rgb(169,169,169)}.ps68{position:relative;margin-left:74px;margin-top:-86px}.s66{min-width:130px;width:130px;min-height:33px}.c74{z-index:70;pointer-events:auto;overflow:hidden;height:33px}.f23{font-family:"Open Sans";font-size:15px;font-size:calc(15px * var(--f));line-height:1.868;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#000;background-color:initial;text-shadow:none}.ps69{position:relative;margin-left:-598px;margin-top:-83px}.c75{z-index:77;pointer-events:auto;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#dc322f;background-clip:padding-box;color:#000}.c75:hover{background-color:#82939e;border-color:#000;color:#000}.c75:active{background-color:#52646f;border-color:#000;color:#fff}.ps70{position:relative;margin-left:304px;margin-top:-84px}.s67{width:55px;padding-right:0;height:21px}.f24{font-family:"Helvetica Neue", sans-serif;font-size:12px;font-size:calc(12px * var(--f));line-height:1.168;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;text-shadow:none;text-indent:0;text-align:center;padding-top:4px;padding-bottom:3px;margin-top:0;margin-bottom:0}.c76{z-index:76;pointer-events:auto;border:1px solid #000;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;background-color:#9eafb9;background-clip:padding-box;color:#000}.c76:hover{background-color:#52646f;border-color:#000;color:#000}.c76:active{background-color:#52646f;border-color:#000;color:#fff}.ps71{position:relative;margin-left:-315px;margin-top:-60px}.s68{min-width:171px;width:171px;min-height:34px}.c77{z-index:71;pointer-events:auto;overflow:hidden;height:34px}.ps72{position:relative;margin-left:9px;margin-top:-60px}.s69{min-width:56px;width:56px;min-height:33px}.c78{z-index:73;pointer-events:auto;overflow:hidden;height:33px}.f25{font-family:"Open Sans";font-size:15px;font-size:calc(15px * var(--f));line-height:1.868;font-weight:800;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#30a12a;background-color:initial;text-shadow:none}.ps73{position:relative;margin-left:-594px;margin-top:-53px}.s70{min-width:330px;width:330px;min-height:33px}.c79{z-index:74;pointer-events:auto;overflow:hidden;height:33px}.f26{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:14px;font-size:calc(14px * var(--f));line-height:1.430;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#000;background-color:initial;text-shadow:none}.ps74{position:relative;margin-left:28px;margin-top:-34px}.c80{z-index:67;pointer-events:auto;overflow:hidden;height:34px}.ps75{position:relative;margin-left:9px;margin-top:-33px}.s71{min-width:69px;width:69px;min-height:33px}.c81{z-index:72;pointer-events:auto;overflow:hidden;height:33px}.ps76{position:relative;margin-top:40px}.c82{z-index:17;pointer-events:none;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#9eafb9;background-clip:padding-box}.s72{min-width:960px;width:960px;margin-left:auto;margin-right:auto;min-height:130px}.s73{min-width:960px;width:960px;min-height:130px}.c83{z-index:78;pointer-events:auto;overflow:hidden;height:29px}.ps77{position:relative;margin-left:780px;margin-top:-18px}.c84{z-index:97;pointer-events:auto;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#dc322f;background-clip:padding-box;color:#000}.c84:hover{background-color:#82939e;border-color:#000;color:#000}.c84:active{background-color:#52646f;border-color:#000;color:#fff}.ps78{position:relative;margin-left:26px;margin-top:-8px}.c85{z-index:98;pointer-events:auto;overflow:hidden;height:91px}.ps79{position:relative;margin-left:354px;margin-top:-79px}.c86{z-index:65;pointer-events:auto}.input5{border:1px solid #c0c0c0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#fff;background-clip:padding-box;width:252px;height:27px;font-family:"Helvetica Neue", sans-serif;font-size:12px;font-size:calc(12px * var(--f));line-height:1.168;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#000;text-shadow:none;text-indent:0;padding-bottom:0;text-align:left;padding:4px}.input5::placeholder{color:rgb(169,169,169)}.ps80{position:relative;margin-left:74px;margin-top:-79px}.c87{z-index:79;pointer-events:auto;overflow:hidden;height:33px}.ps81{position:relative;margin-left:-598px;margin-top:-76px}.c88{z-index:82;pointer-events:auto;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#dc322f;background-clip:padding-box;color:#000}.c88:hover{background-color:#82939e;border-color:#000;color:#000}.c88:active{background-color:#52646f;border-color:#000;color:#fff}.ps82{position:relative;margin-left:304px;margin-top:-77px}.c89{z-index:66;pointer-events:auto;border:1px solid #000;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;background-color:#9eafb9;background-clip:padding-box;color:#000}.c89:hover{background-color:#52646f;border-color:#000;color:#000}.c89:active{background-color:#52646f;border-color:#000;color:#fff}.ps83{position:relative;margin-left:107px;margin-top:-67px}.c90{z-index:99;pointer-events:auto;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#dc322f;background-clip:padding-box;color:#000}.c90:hover{background-color:#82939e;border-color:#000;color:#000}.c90:active{background-color:#52646f;border-color:#000;color:#fff}.ps84{position:relative;margin-left:358px;margin-top:-53px}.c91{z-index:64;pointer-events:auto;overflow:hidden;height:34px}.ps85{position:relative;margin-left:9px;margin-top:-53px}.c92{z-index:62;pointer-events:auto;overflow:hidden;height:33px}.ps86{position:relative;margin-left:-594px;margin-top:-46px}.c93{z-index:63;pointer-events:auto;overflow:hidden;height:33px}.ps87{position:relative;margin-left:450px;margin-top:-37px}.c94{z-index:86;pointer-events:auto;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#dc322f;background-clip:padding-box;color:#000}.c94:hover{background-color:#82939e;border-color:#000;color:#000}.c94:active{background-color:#52646f;border-color:#000;color:#fff}.ps88{position:relative;margin-left:358px;margin-top:-27px}.c95{z-index:61;pointer-events:auto;overflow:hidden;height:34px}.ps89{position:relative;margin-left:9px;margin-top:-26px}.c96{z-index:59;pointer-events:auto;overflow:hidden;height:33px}.ps90{position:relative;margin-left:173px;margin-top:-3px}.c97{z-index:102;pointer-events:auto;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#dc322f;background-clip:padding-box;color:#000}.c97:hover{background-color:#82939e;border-color:#000;color:#000}.c97:active{background-color:#52646f;border-color:#000;color:#fff}.ps91{position:relative;margin-top:46px}.c98{z-index:60;pointer-events:none;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#9eafb9;background-clip:padding-box}.c99{z-index:100;pointer-events:auto;overflow:hidden;height:29px}.c100{z-index:103;pointer-events:auto;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#dc322f;background-clip:padding-box;color:#000}.c100:hover{background-color:#82939e;border-color:#000;color:#000}.c100:active{background-color:#52646f;border-color:#000;color:#fff}.c101{z-index:104;pointer-events:auto;overflow:hidden;height:91px}.c102{z-index:101;pointer-events:auto}.input6{border:1px solid #c0c0c0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#fff;background-clip:padding-box;width:252px;height:27px;font-family:"Helvetica Neue", sans-serif;font-size:12px;font-size:calc(12px * var(--f));line-height:1.168;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#000;text-shadow:none;text-indent:0;padding-bottom:0;text-align:left;padding:4px}.input6::placeholder{color:rgb(169,169,169)}.c103{z-index:88;pointer-events:auto;overflow:hidden;height:33px}.c104{z-index:89;pointer-events:auto;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#dc322f;background-clip:padding-box;color:#000}.c104:hover{background-color:#82939e;border-color:#000;color:#000}.c104:active{background-color:#52646f;border-color:#000;color:#fff}.c105{z-index:87;pointer-events:auto;border:1px solid #000;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;background-color:#9eafb9;background-clip:padding-box;color:#000}.c105:hover{background-color:#52646f;border-color:#000;color:#000}.c105:active{background-color:#52646f;border-color:#000;color:#fff}.ps92{position:relative;margin-left:107px;margin-top:-73px}.c106{z-index:90;pointer-events:auto;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#dc322f;background-clip:padding-box;color:#000}.c106:hover{background-color:#82939e;border-color:#000;color:#000}.c106:active{background-color:#52646f;border-color:#000;color:#fff}.c107{z-index:85;pointer-events:auto;overflow:hidden;height:34px}.c108{z-index:84;pointer-events:auto;overflow:hidden;height:33px}.c109{z-index:105;pointer-events:auto;overflow:hidden;height:33px}.ps93{position:relative;margin-left:450px;margin-top:-36px}.c110{z-index:95;pointer-events:auto;border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#dc322f;background-clip:padding-box;color:#000}.c110:hover{background-color:#82939e;border-color:#000;color:#000}.c110:active{background-color:#52646f;border-color:#000;color:#fff}.c111{z-index:80;pointer-events:auto;overflow:hidden;height:34px}.c112{z-index:83;pointer-events:auto;overflow:hidden;height:33px}</style>
+<link onload="this.media='all';this.onload=null;" rel="stylesheet" href="css/site.ef72bd.css" media="print">
+</head>
+<body id="b">
+<div class="ps44 v6 s43">
+<div class="v7 ps45 s44 c45">
+<p class="p5 f16">WYOMING HIGH FREQUENCY<br>DEFI ACCOUNTING SOFTWARE</p>
+</div>
+<div class="v7 ps46 s45 c46">
+<div class="v7 ps45 s46 w2">
+<div class="v7 ps47 s47 c47">
+<p class="p5 f17">Account</p>
+</div>
+<div class="v8 ps45 s48 c48">
+<p class="f18">0123</p>
+</div>
+<div class="v8 ps48 s48 c49">
+<p class="f18">4567</p>
+</div>
+<div class="v8 ps49 s48 c50">
+<p class="f18">8910</p>
+</div>
+</div>
+<div class="v7 ps50 s49 w2">
+<div class="v7 ps47 s47 c51">
+<p class="p5 f17">NAV</p>
+</div>
+<div class="anim fadeIn un2 v7 ps51 s50 c52">
+<p class="p6 f19">22K</p>
+</div>
+<div class="v7 ps52 s51 c46">
+<div class="v7 ps45 s51 w2">
+<div class="anim fadeIn un3 v7 ps45 s52 c53">
+<p class="p6 f19">122K</p>
+</div>
+<div class="anim fadeIn un4 v7 ps53 s52 c54">
+<p class="p6 f19">2,222k</p>
+</div>
+</div>
+</div>
+</div>
+<div class="v7 ps54 s53 w2">
+<div class="v7 ps55 s47 c55">
+<p class="p5 f17">Website</p>
+</div>
+<div class="v8 ps45 s54 c56">
+<p class="f18">Osmosis.zome</p>
+</div>
+<div class="v8 ps48 s54 c57">
+<p class="f18">www.url</p>
+</div>
+<div class="v8 ps49 s54 c58">
+<p class="f18">www.url</p>
+</div>
+</div>
+<div class="v7 ps56 s53 w2">
+<div class="v7 ps55 s47 c59">
+<p class="p5 f17">Asset</p>
+</div>
+<div class="v8 ps45 s54 c60">
+<p class="f18">ATOM</p>
+</div>
+<div class="v8 ps48 s54 c61">
+<p class="f18">USD</p>
+</div>
+<div class="v8 ps49 s54 c62">
+<p class="f18">ETH</p>
+</div>
+</div>
+<div class="v7 ps57 s55 c63">
+<p class="p7 f17">Your IP address:</p>
+</div>
+<div class="v7 ps58 s56 w2">
+<div class="v7 ps45 s55 c64">
+<p class="p7 f17">Your IP location:</p>
+</div>
+<div class="v7 ps59 s55 c65">
+<p class="p7 f17">Your Trading ID:</p>
+</div>
+</div>
+<div class="v7 ps60 s57 c66">
+<p class="p6 f20">138.199.35.98</p>
+</div>
+<div class="v7 ps61 s58 w2">
+<div class="v7 ps45 s59 c67">
+<p class="p6 f20">34.0522,&nbsp;&nbsp;-118.2437</p>
+</div>
+<div class="v7 ps62 s57 c68">
+<p class="p6 f20">will_pangman</p>
+</div>
+</div>
+</div>
+</div>
+<div class="v7 ps63 s60 c69">
+<div class="ps64 v6 s61">
+<div class="v7 ps45 s62 c46">
+<div class="v7 ps45 s62 w2">
+<div class="v7 ps45 s63 c70">
+<p class="p5 f21">STAKE REWARDS CLAIM (Profit Capture)</p>
+</div>
+<div class="v8 ps65 s54 c71">
+<p class="f18">Metamask</p>
+</div>
+<div class="v7 ps66 s64 c72">
+<p class="p6 f22">?</p>
+</div>
+<div class="v7 ps67 s65 c73">
+<input type="text" placeholder="transaction id" name="deposit-tx-id" class="input4">
+</div>
+<div class="anim fadeIn un5 v7 ps68 s66 c74">
+<p class="p6 f23">D64A&hellip;445C</p>
+</div>
+<div class="v8 ps69 s54 c75">
+<p class="f18">ATOM</p>
+</div>
+<div class="v8 ps70 s67 c76">
+<p class="f24">save</p>
+</div>
+<div class="anim fadeIn un6 v7 ps71 s68 c77">
+<p class="p7 f23">IP address and location</p>
+</div>
+<div class="anim fadeIn un7 v7 ps72 s69 c78">
+<p class="p6 f25">Good!</p>
+</div>
+<div class="v7 ps73 s70 c79">
+<p class="p6 f26">cosmos1t5u0jfg3ljsjrh2m9e47d4ny2hea7eehxrzdgd</p>
+</div>
+<div class="anim fadeIn un8 v7 ps74 s68 c80">
+<p class="p7 f23">USD Amount:</p>
+</div>
+<div class="anim fadeIn un9 v7 ps75 s71 c81">
+<p class="p6 f25">22001.45</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="v7 ps76 s60 c82">
+<div class="ps44 v6 s72">
+<div class="v7 ps45 s73 c46">
+<div class="v7 ps45 s73 w2">
+<div class="v7 ps45 s63 c83">
+<p class="p5 f21">TRANSFER (Between internal accounts)</p>
+</div>
+<div class="v8 ps77 s54 c84">
+<p class="f18">osmosis.zone</p>
+</div>
+<div class="v7 ps78 s64 c85">
+<p class="p6 f22">?</p>
+</div>
+<div class="v7 ps79 s65 c86">
+<input type="text" placeholder="transaction id" name="deposit-tx-id" class="input5">
+</div>
+<div class="anim fadeIn un10 v7 ps80 s66 c87">
+<p class="p6 f23">D64A&hellip;445C</p>
+</div>
+<div class="v8 ps81 s54 c88">
+<p class="f18">ATOM</p>
+</div>
+<div class="v8 ps82 s67 c89">
+<p class="f24">save</p>
+</div>
+<div class="v8 ps83 s54 c90">
+<p class="f18">Metamask</p>
+</div>
+<div class="anim fadeIn un11 v7 ps84 s68 c91">
+<p class="p7 f23">IP address and location</p>
+</div>
+<div class="anim fadeIn un12 v7 ps85 s69 c92">
+<p class="p6 f25">Good!</p>
+</div>
+<div class="v7 ps86 s70 c93">
+<p class="p6 f26">cosmos1t5u0jfg3ljsjrh2m9e47d4ny2hea7eehxrzdgd</p>
+</div>
+<div class="v8 ps87 s54 c94">
+<p class="f18">Shapeshift</p>
+</div>
+<div class="anim fadeIn un13 v7 ps88 s68 c95">
+<p class="p7 f23">USD Amount:</p>
+</div>
+<div class="anim fadeIn un14 v7 ps89 s71 c96">
+<p class="p6 f25">22001.45</p>
+</div>
+<div class="v8 ps90 s54 c97">
+<p class="f18">Kraken</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="v7 ps91 s60 c98">
+<div class="ps44 v6 s61">
+<div class="v7 ps45 s62 c46">
+<div class="v7 ps45 s62 w2">
+<div class="v7 ps45 s63 c99">
+<p class="p5 f21">TRADE (One asset to another)</p>
+</div>
+<div class="v8 ps77 s54 c100">
+<p class="f18">Metamask</p>
+</div>
+<div class="v7 ps78 s64 c101">
+<p class="p6 f22">?</p>
+</div>
+<div class="v7 ps79 s65 c102">
+<input type="text" placeholder="transaction id" name="deposit-tx-id" class="input6">
+</div>
+<div class="anim fadeIn un15 v7 ps80 s66 c103">
+<p class="p6 f23">D64A&hellip;445C</p>
+</div>
+<div class="v8 ps81 s54 c104">
+<p class="f18">ATOM</p>
+</div>
+<div class="v8 ps82 s67 c105">
+<p class="f24">save</p>
+</div>
+<div class="v8 ps92 s54 c106">
+<p class="f18">Shapeshift</p>
+</div>
+<div class="anim fadeIn un16 v7 ps84 s68 c107">
+<p class="p7 f23">IP address and location</p>
+</div>
+<div class="anim fadeIn un17 v7 ps85 s69 c108">
+<p class="p6 f25">Good!</p>
+</div>
+<div class="v7 ps86 s70 c109">
+<p class="p6 f26">cosmos1t5u0jfg3ljsjrh2m9e47d4ny2hea7eehxrzdgd</p>
+</div>
+<div class="v8 ps93 s54 c110">
+<p class="f18">Kraken</p>
+</div>
+<div class="anim fadeIn un18 v7 ps88 s68 c111">
+<p class="p7 f23">USD Amount:</p>
+</div>
+<div class="anim fadeIn un19 v7 ps89 s71 c112">
+<p class="p6 f25">22001.45</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="btf v3 ps4 s4 c4">
+<div class="ps5 v4 s5">
+<div class="s6">
+<div class="v3 ps6 s7 c5">
+<p class="p2 f2">DEPOSITS (New Capital into Portfolio)</p>
+</div>
+<div class="v3 ps7 s8 c6">
+<div class="v3 ps8 s9 c7">
+<input type="text" placeholder="Receiver Address" name="deposit-reciver address" class="input1">
+</div>
+<div class="v5 ps9 s10 c8">
+<p class="f3">save</p>
+</div>
+<div class="anim fadeIn un20 v3 ps10 s11 c9">
+<p class="p3 f4">IP address and location</p>
+</div>
+<div class="anim fadeIn un21 v3 ps11 s12 c10">
+<p class="p4 f4">cosmos1fes&hellip;zd7</p>
+</div>
+<div class="v3 ps12 s13 w1">
+<div class="anim fadeIn un22 v3 ps7 s14 c11">
+<p class="p4 f5">Good!</p>
+</div>
+<div class="anim fadeIn un23 v3 ps13 s14 c12">
+<p class="p4 f5">Good!</p>
+</div>
+</div>
+<div class="v5 ps14 s15 c13">
+<p class="f6">Scan<br>the<br>chain</p>
+</div>
+<div class="anim fadeIn un24 v3 ps15 s11 c14">
+<p class="p3 f4">USD Amount:</p>
+</div>
+<div class="v3 ps16 s16 w1">
+<div class="v3 ps7 s9 c15">
+<input type="text" placeholder="transaction id" name="deposit-tx-id" class="input2">
+</div>
+<div class="v3 ps17 s17 c6">
+<div class="v5 ps18 s10 c16">
+<p class="f3">save</p>
+</div>
+<div class="v3 ps19 s18 w1">
+<div class="anim fadeIn un25 v3 ps7 s19 c17">
+<p class="p4 f4">D64A&hellip;445C</p>
+</div>
+<div class="anim fadeIn un26 v3 ps20 s20 c18">
+<p class="p4 f5">22001.45</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="btf ps21 v4 s21">
+<div class="v3 ps22 s22 c6">
+<div class="anim fadeIn un27 v3 ps7 s11 c19">
+<p class="p3 f4">USD Fee:</p>
+</div>
+<div class="anim fadeIn un28 v3 ps23 s20 c20">
+<p class="p4 f5">0.21</p>
+</div>
+</div>
+</div>
+<div class="btf v3 ps24 s4 c21">
+<div class="ps5 v4 s23">
+<div class="s24">
+<div class="v3 ps6 s7 c22">
+<p class="p2 f2">WITHDRAWALS (Base Capital leaving a Portfolio)</p>
+</div>
+<div class="v3 ps25 s25 c6">
+<div class="v3 ps18 s26 w1">
+<div class="v3 ps6 s27 c6">
+<div class="v5 ps7 s28 c23">
+<p class="f7">4567</p>
+</div>
+<div class="v5 ps26 s29 c24">
+<p class="f7">Osmosis.zome</p>
+</div>
+<div class="v5 ps27 s29 c25">
+<p class="f7">ATOM</p>
+</div>
+</div>
+<div class="v3 ps28 s30 c26">
+<p class="p4 f8">cosmos1t5u0jfg3ljsjrh2m9e47d4ny2hea7eehxrzdgd</p>
+</div>
+<div class="v5 ps29 s31 c27">
+<p class="f9">Copy address</p>
+</div>
+</div>
+<div class="v3 ps30 s32 w1">
+<div class="v3 ps7 s9 c28">
+<input type="text" placeholder="transaction id" name="deposit-tx-id" class="input3">
+</div>
+<div class="v3 ps31 s33 c6">
+<div class="v3 ps7 s34 w1">
+<div class="anim fadeIn un29 v3 ps7 s11 c29">
+<p class="p3 f4">IP address and location</p>
+</div>
+<div class="anim fadeIn un30 v3 ps13 s11 c30">
+<p class="p3 f4">USD Amount:</p>
+</div>
+</div>
+<div class="anim fadeIn un31 v3 ps19 s14 c31">
+<p class="p4 f5">Good!</p>
+</div>
+</div>
+</div>
+<div class="anim fadeIn un32 v3 ps32 s20 c32">
+<p class="p4 f5">22001.45</p>
+</div>
+<div class="v5 ps33 s10 c33">
+<p class="f3">save</p>
+</div>
+<div class="anim fadeIn un33 v3 ps34 s35 c26">
+<p class="p4 f4">D64A&hellip;445C</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="btf ps35 v4 s36">
+<div class="v3 ps36 s37 c6">
+<div class="v3 ps7 s38 c34">
+<p class="p3 f10">Your Trading ID:</p>
+</div>
+<div class="v3 ps37 s39 c34">
+<p class="p4 f11">will_pangman</p>
+</div>
+</div>
+</div>
+<div class="btf v3 ps38 s4 c35">
+<div class="ps39 v4 s40">
+<div class="v3 ps7 s41 c6">
+<div class="v3 ps7 s42 c36">
+<p class="p2 f12">TIMESTAMP<br><span class="f13"><br>3/3/2022 14:12:45</span></p>
+</div>
+<div class="v3 ps7 s42 c37">
+<p class="p2 f12">IP Address<br><span class="f13"><br></span><span class="f14">Verona WI</span></p>
+</div>
+<div class="v3 ps40 s42 c38">
+<p class="p2 f12">Internal ID<br><span class="f13"><br></span><span class="f14">0000340</span></p>
+</div>
+<div class="v3 ps41 s42 c39">
+<p class="p2 f12">Asset type<br><span class="f13"><br></span><span class="f14">ATOM</span></p>
+</div>
+<div class="v3 ps42 s42 c40">
+<p class="p2 f12">Transfer Type<br><span class="f13"><br></span>debit</p>
+</div>
+<div class="v3 ps42 s42 c41">
+<p class="p2 f12">Transfer Amount<br><span class="f13"><br></span>300</p>
+</div>
+<div class="v3 ps40 s42 c42">
+<p class="p2 f12">Transfer Value<br><span class="f13"><br></span>9,000 USD, 4,5ETH</p>
+</div>
+<div class="v3 ps43 s42 c43">
+<p class="p2 f12">Flag?<br><span class="f13"><br></span><span class="f15">no</span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="btf c44">
+</div>
+<script>var p=document.createElement("P");p.innerHTML="&nbsp;",p.style.cssText="position:fixed;visible:hidden;font-size:100px;zoom:1",document.body.appendChild(p);var rsz=function(e){return function(){var r=parseInt(1e7/parseFloat(window.getComputedStyle(e).getPropertyValue("font-size"))+.5)/1e5,n=document.body;r!=n.style.getPropertyValue("--f")&&n.style.setProperty("--f",r)}}(p);if("ResizeObserver"in window){var ro=new ResizeObserver(rsz);ro.observe(p)}else if("requestAnimationFrame"in window){var raf=function(){rsz(),requestAnimationFrame(raf)};requestAnimationFrame(raf)}else setInterval(rsz,100);</script>
+
+<script>dpth="/";!function(){for(var e=["js/woolite.913f45.js","js/jquery.913f45.js","js/txid.ef72bd.js"],n={},s=-1,t=function(t){var o=new XMLHttpRequest;o.open("GET",e[t],!0),o.onload=function(){for(n[t]=o.responseText;s<3&&void 0!==n[s+1];){s++;var e=document.createElement("script");e.textContent=n[s],document.body.appendChild(e)}},o.send()},o=0;o<3;o++)t(o)}();
+</script>
+</body>
+</html>
